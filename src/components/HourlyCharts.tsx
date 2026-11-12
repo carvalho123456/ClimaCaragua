@@ -214,7 +214,7 @@ const HourlyCharts = ({ dayIso, bare = false }: Props) => {
       {isLoading ? (
         <div className="flex-1 min-h-[18rem] rounded-xl bg-muted animate-pulse" />
       ) : (
-        <div className="h-[320px] w-full cursor-pointer [&_*]:cursor-pointer" ref={chartRef}>
+        <div className="h-[320px] w-full cursor-none [&_*]:cursor-none" ref={chartRef}>
           <ResponsiveContainer width="100%" height={320}>
             <AreaChart data={chartData} margin={{ top: 10, right: 12, left: 4, bottom: 0 }}>
               <defs>
