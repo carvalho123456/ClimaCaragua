@@ -15,7 +15,9 @@ const WeatherBadge = () => {
 
   return (
     <div className="inline-flex items-center gap-2 rounded-full border border-primary-foreground/20 bg-primary-foreground/10 px-3 py-1.5 backdrop-blur-md">
-      <Icon className={`h-4 w-4 text-sky ${loading ? "animate-spin" : ""}`} />
+      <span className="flex h-4 w-4 shrink-0 items-center justify-center">
+        <Icon className={`h-4 w-4 shrink-0 text-sky ${loading ? "animate-spin" : ""}`} />
+      </span>
       <span className="text-xs font-semibold text-primary-foreground">
         {label}
         {temperature !== null && ` • ${Math.round(temperature)}°C`}

@@ -57,8 +57,9 @@ const Header = () => {
             initial={{ rotate: -90, opacity: 0 }}
             animate={{ rotate: 0, opacity: 1 }}
             transition={{ duration: 0.3 }}
+            className="flex h-7 w-7 shrink-0 items-center justify-center"
           >
-            <ThemeIcon className="h-7 w-7 text-sky" />
+            <ThemeIcon className="h-7 w-7 shrink-0 text-sky" />
           </motion.div>
           <span className="font-heading text-xl font-bold text-primary-foreground tracking-tight">
             CLIMACARAGUA
