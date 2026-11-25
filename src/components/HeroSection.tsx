@@ -69,14 +69,6 @@ const HeroSection = () => {
           </div>
         </motion.div>
 
-        <motion.div
-          initial={false}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.2, duration: 1 }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2"
-        >
-          <ChevronDown className="h-8 w-8 text-sky animate-float" />
-        </motion.div>
       </div>
     </section>
   );

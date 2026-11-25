@@ -399,3 +399,8 @@
     box-shadow: var(--shadow-elevated);
   }
 }
+
+.leaflet-container {
+  position: relative;
+  z-index: 0;
+}

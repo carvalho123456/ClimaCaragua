@@ -96,7 +96,7 @@ export const WeatherThemeProvider = ({ children }: { children: ReactNode }) => {
   }, []);
 
   const theme = override ?? autoTheme;
-  const label = override ? `${THEME_LABELS[override]} (preview)` : autoLabel;
+  const label = override ? `${THEME_LABELS[override]}` : autoLabel;
 
   useEffect(() => {
     document.documentElement.setAttribute("data-weather", theme);
