@@ -3,19 +3,19 @@ import { Mountain, AlertTriangle, MapPin, History } from "lucide-react";
 
 const landslideAreas = [
   {
-    area: "Serra do Mar (Região Serrana)",
-    severity: "Muito Alto",
-    description: "Região do grande desastre de 1967. Encostas íngremes com solo saturado.",
+    area: "Jetuba",
+    severity: "Moderado",
+    description: "O bairro tem sido incluído em monitoramentos e vistorias técnicas da Defesa Civil, Secretaria de Habitação e do Instituto de Pesquisas Tecnológicas (IPT) e aparece em alertas meteorológicos e de risco de deslizamento/alagamento durante períodos chuvosos.",
   },
   {
-    area: "Morro do Algodão",
-    severity: "Muito Alto",
-    description: "Solo instável em encosta íngreme. Ocupações em área de risco.",
+    area: "Jaraguazinho",
+    severity: "Alto",
+    description: " Jaraguazinho integra o mapeamento municipal de áreas de risco e o Plano de Contingência (Plancon) para encostas e deslizamentos, com setores que variam de risco mais leve a mais grave conforme o terreno e a ocupação",
   },
   {
     area: "Tabatinga / Mococa",
     severity: "Alto",
-    description: "Encostas da Serra com histórico de movimentos de massa.",
+    description: " O bairro integra as áreas monitoradas pelo município para escorregamentos e deslizamentos, acompanhadas pela Defesa Civil e por sistemas de monitoramento pluviométrico.",
   },
 ];
 
